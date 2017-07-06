@@ -16,6 +16,8 @@ const Validations = buildValidations({
 });
 
 export default Ember.Controller.extend(Validations, {
+    username: '',
+    password: '',
     actions:{
         submit: function(){
 
