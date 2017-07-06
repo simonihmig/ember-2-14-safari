@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-block">
+                {{#bs-form model=this onSubmit=(action "submit") as |form|}} 
+                    {{form.element controlType="text" label="Username" placeholder="Username" property="username" autofocus="autofocus"}} 
+                    {{form.element controlType="password" label="Password" placeholder="Password" property="password"}} 
+                    {{#bs-button buttonType="submit"}}
+                            Login
+                    {{/bs-button}}
+                {{/bs-form}} 
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
