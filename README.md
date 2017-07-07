@@ -12,4 +12,6 @@ To reproduce the error
 * Continuously enter characters into the field
 * at some point the exception `null is not an object (evaluating 'm.isInitialized')` will throw
 
-!(https://raw.githubusercontent.com/simonihmig/ember-2-14-safari/master/safari-bug.gif)
+## Demo
+
+![Demo](https://raw.githubusercontent.com/simonihmig/ember-2-14-safari/master/safari-bug.gif)
