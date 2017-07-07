@@ -8,10 +8,6 @@ const Validations = buildValidations({
     username: [validator('presence', {
         presence: true,
         message: 'Username is required.'
-    })],
-    password: [validator('presence', {
-        presence: true,
-        message: 'Password is required.'
     })]
 });
 
