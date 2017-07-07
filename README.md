@@ -8,8 +8,6 @@ The only files with code relevant to the validation error are.
 To reproduce the error
 
 * `ember serve`
-* Visit http://localhost:4200
-* Fill out the fields
-* Clear out one of the fields
-* tab
-* Fill out the cleared field and tab again.
+* Visit http://localhost:4200 in Safari (Mac)
+* Continuously enter characters into the field
+* at some point the exception `null is not an object (evaluating 'm.isInitialized')` will throw
